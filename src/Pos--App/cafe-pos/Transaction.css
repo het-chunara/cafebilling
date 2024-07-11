@@ -1,0 +1,74 @@
+.transaction {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.transaction h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.transaction .transaction-items {
+    margin-bottom: 20px;
+}
+
+.transaction .transaction-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction .transaction-items li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.transaction .transaction-summary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.transaction .transaction-summary p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.transaction .transaction-summary .bill-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bill-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bill-button button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #070303;
+    background-color: hsl(234, 100%, 83%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid black;
+    font-family: cursive;
+   /* font-family: Fantasy; */
+} 
+
+.bill-button button:hover {
+    background-color: #ffcb86;
+    color: black;
+    font-size: 17px;
+    border: 1px solid black;
+}

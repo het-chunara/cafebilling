@@ -1,0 +1,86 @@
+.menu {
+    margin-top: 20px;
+}
+
+.menu h1 {
+    text-align: center;
+
+}
+
+.menu input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.menu .item-info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.menu .edit-button {
+    display: flex;
+    gap: 10px;
+    /* background-color: rgb(142, 238, 142); */
+}
+
+.color-edit {
+    background-color: #3a850e !important;
+}
+
+.menu button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu .delete {
+    background-color: #dc3545;
+}
+
+.menu button:hover {
+    opacity: 0.8;
+}
+
+.success-message {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    animation: fadeOut 2s ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

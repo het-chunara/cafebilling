@@ -1,0 +1,40 @@
+.add-item {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-item h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-item form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-item form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-item form button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-item form button:hover {
+  background-color: #0056b3;
+}
